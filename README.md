@@ -1,2 +1,332 @@
 # Kawendra-Zpax
 You Don't Know Who Iam
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kawendra zpax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 12px 0;
+      text-align: center;
+    }
+    main {
+      padding: 24px;
+      background: #fff;
+      max-width: 800px;
+      margin: 32px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    button {
+      background: #1877f2;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 16px;
+    }
+    button:hover {
+      background: #145db2;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 12px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Kawendra zpax</h1>
+  </header>
+  <main>
+    <h2>You Dont Know Who Iam</h2>
+    <p>Ginagawa mo dito? HAHA HAHA HAHA HAHA HAHA</p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+  </main>
+  <footer>
+    &copy; 2020 Kawendra zpax 
+  </footer>
+  <script>
+    function showMessage() {
+      document.getElementById('message').textContent = "You Are An Idiot";
+    }
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spamming Pop Up Example</title>
+</head>
+<body>
+  <button onclick="startSpam()">FaceBook Real Account</button>
+  <button onclick="stopSpam()">FaceBook Account</button>
+  <script>
+    let spamInterval;
+    function startSpam() {
+      if (spamInterval) return; // Prevent multiple intervals
+      spamInterval = setInterval(() => {
+        alert("You Are An Idiot");
+      }, 500); // Pop-up every 0.5 seconds
+    }
+    function stopSpam() {
+      clearInterval(spamInterval);
+      spamInterval = null;
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Pop-Up Spamming Ads</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    #popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 9999;
+    }
+    #popup-ad {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      padding: 32px 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+      width: 320px;
+      text-align: center;
+    }
+    #close-btn {
+      background: #e53935;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function showAd() {
+      document.getElementById('popup-overlay').style.display = 'block';
+    }
+    function closeAd() {
+      document.getElementById('popup-overlay').style.display = 'none';
+    }
+    // Auto-spam every 2 seconds
+    setInterval(showAd, 2000);
+  </script>
+  <div id="popup-overlay">
+    <div id="popup-ad">
+      <h2>🔥 Destroying Your Files...</h2>
+      <p>WARNING!! Ang Iyong Device Ay Na-Infect Ng Malware Virus!<br>Burahin ang iyong Facebook APPS, Upang hindi makuha ang iyong PERSONAL na PASSWORD.</p>
+      <button id="close-btn" onclick="closeAd()">Close</button
+
+      
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Pop-Up Spamming Ads</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    #popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 9999;
+    }
+    #popup-ad {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      padding: 32px 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+      width: 320px;
+      text-align: center;
+    }
+    #close-btn {
+      background: #e53935;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function showAd() {
+      document.getElementById('popup-overlay').style.display = 'block';
+    }
+    function closeAd() {
+      document.getElementById('popup-overlay').style.display = 'none';
+    }
+    // Auto-spam every 2 seconds
+    setInterval(showAd, 2000);
+  </script>
+  <div id="popup-overlay">
+    <div id="popup-ad">
+      <h2>🔥 Destroying Your Files...</h2>
+      <p>WARNING!! Ang Iyong Device Ay Na-Infect Ng Malware Virus!<br>Burahin ang iyong Facebook APPS, Upang hindi makuha ang iyong PERSONAL na PASSWORD.</p>
+      <button id="close-btn" onclick="closeAd()">Close</button
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Pop-Up Spamming Ads</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    #popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 9999;
+    }
+    #popup-ad {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      padding: 32px 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+      width: 320px;
+      text-align: center;
+    }
+    #close-btn {
+      background: #e53935;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function showAd() {
+      document.getElementById('popup-overlay').style.display = 'block';
+    }
+    function closeAd() {
+      document.getElementById('popup-overlay').style.display = 'none';
+    }
+    // Auto-spam every 2 seconds
+    setInterval(showAd, 2000);
+  </script>
+  <div id="popup-overlay">
+    <div id="popup-ad">
+      <h2>🔥 Destroying Your Files...</h2>
+      <p>WARNING!! Ang Iyong Device Ay Na-Infect Ng Malware Virus!<br>Burahin ang iyong Facebook APPS, Upang hindi makuha ang iyong PERSONAL na PASSWORD.</p>
+      <button id="close-btn" onclick="closeAd()">Close</button
+      
+      
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spamming Video Pop-Up Ads</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    #popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 9999;
+    }
+    #popup-ad {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      padding: 24px 16px;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+      width: 360px;
+      text-align: center;
+    }
+    #close-btn {
+      background: #e53935;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 16px;
+    }
+    iframe {
+      width: 320px;
+      height: 180px;
+      border: none;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function showAd() {
+      document.getElementById('popup-overlay').style.display = 'block';
+    }
+    function closeAd() {
+      document.getElementById('popup-overlay').style.display = 'none';
+    }
+    // Auto-spam every 3 seconds
+    setInterval(showAd, 3000);
+  </script>
+  <div id="popup-overlay">
+    <div id="popup-ad">
+      <h2>Watch this Video!</h2>
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <p>Don't miss our amazing offer!</p>
+      <button id="close-btn" onclick="closeAd()">Close</button>
+    </div>
+  </div>
+</body>
+	
+</html>
